@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+.env
+venv/
+ENV/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# General
+*.sqlite3
+*.db
+
+# Static files
+app/static/*.json
+
+# Ignore environment files
+.env.*
+
+# Ignore test cache
+.pytest_cache/
+
+# Ignore migrations (if any)
+migrations/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+
+# Ignore build
+build/
+dist/
+
+.history
